@@ -1,7 +1,7 @@
 package es.datautil;
 
 public class Data {
-
+	private int ano; 
 	
 	/**
 	 * Diz se um determinado ano é bissexto ou não
@@ -13,13 +13,10 @@ public class Data {
 	{
 		// IMPLEMENTAR
 		// Implemente a lógica a partir do Fluxograma dado em anexo!
-		
-		
-		
-		
-		
-		
-		return true;
+		if (ano % 4 == 00 ) || ( ano % 100 == 0 ) || (ano % 400 == 0){
+			return true;
+	} else {
+		return false;
 	}
 	
 	
