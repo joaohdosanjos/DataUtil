@@ -13,9 +13,7 @@ public class Principal {
 		   LER numero do mês
 		   Converte numero do mês para um objecto do enumerado Meses e guarda na variável mes
 		   
-		   Se mes igual a MESES.FEVEREIRO
-		     então
-		        LER ano
+		   Se mes igual a MESES.FEVEREIRO 	 	
 		        Invocar método classe Data para obter o número de dias do mês
 		     senão
 		        Invocar método classe Data para obter o número de dias do mês
@@ -24,9 +22,7 @@ public class Principal {
 		   
 		
 	    */ 
-		
-		
-		
+		 
 		
 		
 	}
